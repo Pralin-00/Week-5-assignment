@@ -1,0 +1,44 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-content {
+  background-color: #121213;
+  border: 1px solid #3a3a3c;
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+  max-width: 320px;
+  color: #ffffff;
+}
+
+.modal-content h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+}
+
+.modal-content p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.play-again-btn {
+  background-color: #538d4e;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.play-again-btn:hover {
+  filter: brightness(1.1);
+}
